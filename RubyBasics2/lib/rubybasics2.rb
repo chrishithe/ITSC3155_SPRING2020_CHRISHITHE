@@ -1,8 +1,9 @@
 # Strings and Regular Expressions
 
 # Part I
-def hello(name)
+def hello name
   # YOUR CODE HERE
+    "Hello, " + name
 end
 
 # Part II
