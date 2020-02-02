@@ -9,6 +9,8 @@ end
 # Part II
 def starts_with_consonant? s
   # YOUR CODE HERE
+  return false if !s or s.length == 0
+    return !/\A[aeiou\W\d].*/i.match(s)
 end
 
 # Part III
