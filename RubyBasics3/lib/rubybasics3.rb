@@ -13,6 +13,7 @@ class BookInStock
 
   def price_as_string
     # YOUR CODE HERE
+    format("$%.2f", @price)
   end
 
 end
